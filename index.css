@@ -106,18 +106,16 @@ header h4, h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 60px;
-    background-color: #fffff1;
 }
 .intro {
-    margin: 25px 20px;
+    margin: 100px 20px;
     text-align: center;
     border: 1px solid #eee;
-    
+    box-shadow: 1px 1px 10px 4px #111;
+    border-radius: 10px;
 }
 .intro-title, .project-title {
-    color: #eee;
-    background-color: #5695d5;
+    color: #111;
     font-size: 2.5rem;
     padding: 10px;
 }
@@ -128,13 +126,14 @@ header h4, h3 {
     line-height: 30px;
 }
 .projects-container {
-    background-color: #e6e6e6;
+    background-color: #fafafa;
     padding: 100px 10px;
+    width: 100%;
 }
 .project-title {
     text-align: center;
     width: 85%;
-    margin: 60px auto;
+    margin: auto;
 }
 .main-inner-flex-container p {
     font-size: 1.4rem;
@@ -149,8 +148,8 @@ header h4, h3 {
     margin: auto;
     border-bottom: 1px solid #111;
     border-right: 1px solid #111;
-    box-shadow: 1px 1px 5px 2px #111;
-    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #111;
+    border-radius: 5px;
     transition: background-color 1s ease-in-out;
     background: #E53A4C;
     background: -webkit-linear-gradient(right, #E53A4C, #F67205);
@@ -224,9 +223,6 @@ header h4, h3 {
     .logo-img {
         width: 8%;
     }
-    .main-container {
-        padding: 200px 10px;
-    }
     .head-inner-section-1 {
         width: 30%;
         margin: auto;
@@ -236,12 +232,11 @@ header h4, h3 {
         flex-direction: row;
     }
     .intro {
-        width: 40%;
-        margin: 50px;
+        width: 50%;
     }
     .project-title {
         width: 40%;
-        margin-bottom: 120px;
+        margin-bottom: 20px;
     }
     .footer-section {
         padding-top: 120px;
