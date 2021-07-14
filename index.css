@@ -16,13 +16,7 @@ body {
     height: 50px;
     width: 50px;
 }
-.toggler {
-    background-image: url(./icons/toggle-on.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 60px;
-    width: 60px;
-}
+
 @media only screen and (min-width: 768px) {
     
 }
