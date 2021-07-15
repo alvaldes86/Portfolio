@@ -33,6 +33,14 @@ body {
 .orange-color {
     color: #F17720;
 }
+.my-btn {
+    background-color: #F17720;
+    color: #eee;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 5px;
+}
 @media only screen and (min-width: 768px) {
     
 }
