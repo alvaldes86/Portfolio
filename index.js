@@ -24,7 +24,9 @@ let showDate = () => {
 }
 
 window.onload = function() {
+    /*
     setInterval(function() {
         showDate();
     });
+    */
 }
