@@ -41,6 +41,15 @@ body {
     border: none;
     margin: 5px;
 }
+.blue-color-bg {
+    background-color: #0474BA;
+}
+.gray-color-bg {
+    background-color: #EBEBEB;
+}
+.orange-color-bg {
+    background-color: #F17720;
+}
 @media only screen and (min-width: 768px) {
     
 }
