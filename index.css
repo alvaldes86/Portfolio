@@ -22,7 +22,7 @@ body {
     background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .main-bg {
-    background-image: url(./images/main-bg.png);
+    background-image: url(./images/g-man.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,16 +30,22 @@ body {
 .padding-top {
     padding-top: 120px;
 }
+.white-color {
+    color: #eee;
+}
 .orange-color {
     color: #F17720;
 }
 .my-btn {
-    background-color: #F17720;
+    background-image: linear-gradient(to right, #2c3e50 0%, #3498db  51%, #2c3e50  100%);
     color: #eee;
     padding: 5px 20px;
     border-radius: 20px;
     border: none;
     margin: 5px;
+}
+.my-btn:hover a {
+    color: #111;
 }
 .blue-color-bg {
     background-color: #0474BA;
