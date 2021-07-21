@@ -66,6 +66,12 @@ body {
 .yellow-color-bg {
     background-color: #FFEF00 ;
 }
+.hover:hover {
+    opacity: 0.8;
+}
+.hover-orange:hover {
+    background-color: var(--primary-color);
+}
 @media only screen and (min-width: 768px) {
     
 }

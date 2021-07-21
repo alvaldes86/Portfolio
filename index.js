@@ -4,6 +4,7 @@
 function $(id) {
     return document.getElementById(id);
 }
+
 //this function shows the current date
 let showDate = () => {
     let date = new Date();
