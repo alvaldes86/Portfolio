@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #F17720;
+    --secondary-color: #00A7E1;
+    --light-color: #EBEBEB;
+    --dark-color: #292929;
+    --white-color: #eee;
+    --black-color: #111;
+}
 * {
     box-sizing: content-box;
 }
@@ -54,6 +62,9 @@ body {
 }
 .orange-color-bg {
     background-color: #F17720;
+}
+.yellow-color-bg {
+    background-color: #FFEF00 ;
 }
 @media only screen and (min-width: 768px) {
     
