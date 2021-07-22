@@ -20,8 +20,8 @@ body {
     background-image: url(./icons/YG.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
 }
 .gradient-bg {
     background: #000428;  /* fallback for old browsers */
