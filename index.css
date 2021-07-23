@@ -5,6 +5,7 @@
     --dark-color: #292929;
     --white-color: #eee;
     --black-color: #111;
+    --light-green: 	#00FF7F;
 }
 * {
     box-sizing: content-box;
@@ -56,6 +57,9 @@ body {
 }
 .blue-color-bg {
     background-color: #0474BA;
+}
+.green-color-bg {
+    background-color: var(--light-green);
 }
 .gray-color-bg {
     background-color: #EBEBEB;
