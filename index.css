@@ -5,7 +5,9 @@
     --dark-color: #292929;
     --white-color: #eee;
     --black-color: #111;
-    --light-green: 	#00FF7F;
+    --emerald-green: 	#50C878;
+    --red-cherry: #D2042D;
+    --yellow-amber: #FFBF00;
 }
 * {
     box-sizing: content-box;
@@ -59,7 +61,10 @@ body {
     background-color: #0474BA;
 }
 .green-color-bg {
-    background-color: var(--light-green);
+    background-color: var(--emerald-green);
+}
+.red-cherry-color-bg {
+    background-color: var(--red-cherry);
 }
 .gray-color-bg {
     background-color: #EBEBEB;
@@ -68,7 +73,7 @@ body {
     background-color: #F17720;
 }
 .yellow-color-bg {
-    background-color: #FFEF00 ;
+    background-color: var(--yellow-amber);
 }
 .hover-orange:hover {
     background-color: var(--primary-color);
