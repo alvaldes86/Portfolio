@@ -49,9 +49,6 @@ body {
 .my-btn {
     background-image: linear-gradient(to right, #2c3e50 0%, #3498db  51%, #2c3e50  100%);
     color: #eee;
-    padding: 5px 20px;
-    border-radius: 20px;
-    border: none;
     margin: 5px;
 }
 .my-btn:hover a {
