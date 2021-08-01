@@ -32,7 +32,7 @@ body {
     background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .main-bg {
-    background-image: url(./images/main-bg-2.png);
+    background-image: url(./images/main-bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
