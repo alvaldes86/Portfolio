@@ -8,6 +8,7 @@
     --emerald-green: 	#50C878;
     --red-cherry: #D2042D;
     --yellow-amber: #FFBF00;
+    --tomato: #FF6347;
 }
 * {
     box-sizing: content-box;
@@ -32,7 +33,7 @@ body {
     background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .main-bg {
-    background-image: url(./images/main-bg.png);
+    background-image: url(./images/BG-YohanCraft.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,6 +72,9 @@ body {
 }
 .yellow-color-bg {
     background-color: var(--yellow-amber);
+}
+.tomato-color-bg {
+    background-color: var(--tomato);
 }
 .hover-orange:hover {
     background-color: var(--primary-color);
