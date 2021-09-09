@@ -4,17 +4,6 @@
 function $(id) {
     return document.getElementById(id);
 }
-
-const changeToggle = () => {
-    let toggle = $("toggle");
-    if(toggle.getAttribute("src") == "./images-logo/toogle.svg") {
-        toggle.src = "./images-logo/toogle-off.svg";
-    } 
-    else if (toggle.getAttribute("src") == "./images-logo/toogle-off.svg") {
-        toggle.src = "./images-logo/toogle.svg";
-    }
-}
-
 //this function shows the current date
 const showDate = () => {
     let date = new Date();
@@ -52,10 +41,20 @@ const changeNavBarMobile = () => {
         }
     }
 }
+const changeIcon = () => {
+    if ($("togg").classList.contains("fa-equals")) {
+        $("togg").classList.remove("fa-equals");
+        $("togg").classList.add("fa-times");
+    } else if ($("togg").classList.contains("fa-times")) {
+        $("togg").classList.remove("fa-times");
+        $("togg").classList.add("fa-equals");
+    }
+}
 
 window.onload = function() {
     $("toggler").onclick = () => { 
-        changeNavBarMobile();   
+        changeNavBarMobile();
+        changeIcon();
     };
     onscroll = function() {
         changeNavBar();
