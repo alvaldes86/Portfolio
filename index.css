@@ -32,11 +32,6 @@ body {
     outline: none;
     box-shadow: none;
 }
-.gradient-bg {
-    background: #000428;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #280099, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #280099, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 .main-bg {
     background-image: url(./images/BG-YohanCraft.png);
     background-position: center;
@@ -59,6 +54,11 @@ body {
 }
 .my-btn:hover a {
     color: #111;
+}
+.gradient-bg {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #280099, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #280099, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .blue-color-bg {
     background-color: #0474BA;
