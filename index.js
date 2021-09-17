@@ -24,7 +24,7 @@ const showDate = () => {
 }
 
 const changeNavBar = () => {
-    if(window.scrollY > 150) {
+    if(window.scrollY > 1) {
         $("nav-bar").classList.add("gradient-bg");
         $("nav-bar").style.opacity = "0.9";
     } else if(window.scrollY <= 0) {
