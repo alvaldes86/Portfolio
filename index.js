@@ -22,7 +22,6 @@ const showDate = () => {
     let fullTime = `${hour}:${minutes}:${seconds}`;
     $("date").innerHTML = `${date.toDateString()}, Time ${fullTime} ${ampm}`;
 }
-
 const changeNavBar = () => {
     if(window.scrollY > 1) {
         $("nav-bar").classList.add("gradient-bg");
@@ -58,6 +57,7 @@ window.onload = function() {
     };
     onscroll = function() {
         changeNavBar();
+        $("profile-photo").classList.add("left-right");
     }
     /*
     setInterval(function() {

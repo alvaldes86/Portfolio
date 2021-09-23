@@ -21,6 +21,19 @@ body {
     margin: 0;
     padding: 0;
 }
+.myAni {
+    -webkit-animation: 4s ease-in-out 0s infinite alternate changeColor;
+    animation: 4s ease-in-out 0s infinite alternate changeColor;
+}
+@-webkit-keyframes changeColor { from { color: #EBEBEB; } to { color: #000428; }  }
+@keyframes changeColor { from { color: #EBEBEB; } to { color: #000428; }  }
+
+.left-right {
+    animation: 2s ease-in 0s alternate leToRi;
+}
+@-webkit-keyframes leToRi {from {margin-left: -100%;}  to {margin: 0%;}}
+@keyframes leToRi {from {margin-left: -100%;}  to {margin: 0%;}}
+
 .logo {
     background-image: url(./icons/YG.svg);
     background-size: cover;
@@ -33,7 +46,7 @@ body {
     box-shadow: none;
 }
 .main-bg {
-    background-image: url(./images/BG-YohanCraft.png);
+    background-image: url(./images/brain.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
