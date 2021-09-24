@@ -22,31 +22,24 @@ body {
     padding: 0;
 }
 .myAni {
-    -webkit-animation: 4s ease-in-out 0s infinite alternate changeColor;
-    animation: 4s ease-in-out 0s infinite alternate changeColor;
+    -webkit-animation: 2s ease-in-out 0s infinite alternate changeColor;
+    animation: 1s ease-in-out 0s infinite alternate changeColor;
 }
 @-webkit-keyframes changeColor { from { color: #EBEBEB; } to { color: #000428; }  }
-@keyframes changeColor { from { color: #EBEBEB; } to { color: #000428; }  }
-
-.left-right {
-    animation: 2s ease-in 0s alternate leToRi;
-}
-@-webkit-keyframes leToRi {from {margin-left: -100%;}  to {margin: 0%;}}
-@keyframes leToRi {from {margin-left: -100%;}  to {margin: 0%;}}
-
+@keyframes changeColor { from { background-color: #EBEBEB; } to { background-color: var(--primary-color); }  }
 .logo {
     background-image: url(./icons/YG.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
 }
 #toggler {
     outline: none;
     box-shadow: none;
 }
 .main-bg {
-    background-image: url(./images/brain.jpg);
+    background-image: url(./images/b.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
