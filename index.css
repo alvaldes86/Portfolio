@@ -29,7 +29,7 @@ body {
     animation: 1s ease-in-out 0s infinite alternate changeColor;
 }
 @-webkit-keyframes changeColor { from { color: #EBEBEB; } to { color: #000428; }  }
-@keyframes changeColor { from { background-color: #EBEBEB; } to { background-color: var(--primary-color); }  }
+@keyframes changeColor { from { background-color: #170034; } to { background-color: #91348f; }  }
 .logo {
     background-image: url(./icons/YG.svg);
     background-size: cover;
