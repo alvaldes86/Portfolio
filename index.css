@@ -22,7 +22,7 @@ body {
     padding: 0;
 }
 .img-rounded {
-    border-radius: 200px;
+    border-radius: 400px;
 }
 .myAni {
     -webkit-animation: 2s ease-in-out 0s infinite alternate changeColor;
