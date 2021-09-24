@@ -57,8 +57,8 @@ window.onload = function() {
     };
     onscroll = function() {
         changeNavBar();
-        $("profile-photo").classList.add("left-right");
     }
+    console.log($("ul-nav").s);
     /*
     setInterval(function() {
         showDate();
