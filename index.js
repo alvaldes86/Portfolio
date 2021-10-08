@@ -44,12 +44,12 @@ const changeNavBarMobile = () => {
     }
 }
 const changeIcon = () => {
-    if ($("togg").classList.contains("fa-equals")) {
-        $("togg").classList.remove("fa-equals");
-        $("togg").classList.add("fa-times");
-    } else if ($("togg").classList.contains("fa-times")) {
-        $("togg").classList.remove("fa-times");
-        $("togg").classList.add("fa-equals");
+    if ($("togg").classList.contains("fa-dot-circle")) {
+        $("togg").classList.remove("fa-dot-circle");
+        $("togg").classList.add("fa-circle");
+    } else if ($("togg").classList.contains("fa-circle")) {
+        $("togg").classList.remove("fa-circle");
+        $("togg").classList.add("fa-dot-circle");
     }
 }
 const hideOnClick = (linksArr) => {

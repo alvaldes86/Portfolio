@@ -1,6 +1,6 @@
 :root {
     --primary-color: #F17720;
-    --secondary-color: #00A7E1;
+    --secondary-color: #5684ae;
     --light-color: #EBEBEB;
     --dark-color: #292929;
     --white-color: #eee;
@@ -20,18 +20,16 @@ html {
 body {
     margin: 0;
     padding: 0;
-}
-.img-rounded {
-    border-radius: 400px;
+    background-color: #5684ae;
 }
 .myAni {
     -webkit-animation: 2s ease-in-out 0s infinite alternate changeColor;
     animation: 1s ease-in-out 0s infinite alternate changeColor;
 }
-@-webkit-keyframes changeColor { from { color: #EBEBEB; } to { color: #000428; }  }
-@keyframes changeColor { from { background-color: #170034; } to { background-color: #91348f; }  }
+@-webkit-keyframes changeColor { from { background-color: #000000; } to { color: #190236; }  }
+@keyframes changeColor { from { background-color: #000000; } to { background-color: #190236; }  }
 .logo {
-    background-image: url(./icons/YG.svg);
+    background-image: url(./icons/logo.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 80px;
@@ -42,16 +40,13 @@ body {
     box-shadow: none;
 }
 .main-bg {
-    background-color: #190236;
+    background-color: #5684ae;
 }
 .padding-top {
     padding-top: 120px;
 }
-.white-color {
-    color: #eee;
-}
-.orange-color {
-    color: #F17720;
+.white {
+    color: var(--light-color);
 }
 .my-btn {
     background-image: linear-gradient(to right, #2c3e50 0%, #3498db  51%, #2c3e50  100%);
@@ -62,10 +57,7 @@ body {
     color: #111;
 }
 .gradient-bg {
-    background-image: linear-gradient(to right top, #170034, #2a104a, #411d61, #5a2a78, #743890);
-}
-.blue-color-bg {
-    background-color: #0474BA;
+    background-image: linear-gradient(to right top, #5684ae, #5684ae, #5684ae, #5684ae, #5684ae);
 }
 .green-color-bg {
     background-color: var(--emerald-green);
