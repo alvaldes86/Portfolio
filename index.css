@@ -42,10 +42,7 @@ body {
     box-shadow: none;
 }
 .main-bg {
-    background-image: url(./images/b.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #190236;
 }
 .padding-top {
     padding-top: 120px;
