@@ -4,6 +4,9 @@
 function $(id) {
     return document.getElementById(id);
 }
+//Stores all links of the nav-bar
+const links = document.getElementsByClassName("nav-item");
+
 //this function shows the current date
 const showDate = () => {
     let date = new Date();
@@ -33,7 +36,7 @@ const changeNavBar = () => {
 }
 const changeNavBarMobile = () => {
     if(window.scrollY <= 0) {
-        if(! $("nav-bar").classList.contains("gradient-bg")) {
+        if(!$("nav-bar").classList.contains("gradient-bg")) {
             $("nav-bar").classList.add("gradient-bg");
         } else {
             $("nav-bar").classList.remove("gradient-bg");
@@ -49,16 +52,24 @@ const changeIcon = () => {
         $("togg").classList.add("fa-equals");
     }
 }
+const hideOnClick = (linksArr) => {
+    for(let i = 0; i < linksArr.length; i++) {
+        linksArr[i].onclick = () => {
+             $("navbarCollapse").classList.remove("show");
+         }
+    }
+}
 
 window.onload = function() {
     $("toggler").onclick = () => { 
         changeNavBarMobile();
         changeIcon();
     };
+    hideOnClick(links);
     onscroll = function() {
         changeNavBar();
     }
-    console.log($("ul-nav").s);
+    changeNavBar();
     /*
     setInterval(function() {
         showDate();
