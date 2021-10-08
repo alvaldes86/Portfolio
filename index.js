@@ -29,11 +29,9 @@ const changeNavBar = () => {
     if(window.scrollY > 1) {
         $("nav-bar").classList.add("gradient-bg");
         $("nav-bar").style.opacity = "0.9";
-        $("navbarCollapse").classList.add("show");
     } else if(window.scrollY <= 0) {
         $("nav-bar").classList.remove("gradient-bg");
         $("nav-bar").style.opacity = "1";
-        $("navbarCollapse").classList.remove("show");
     }
 }
 const changeNavBarMobile = () => {
