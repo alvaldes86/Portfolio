@@ -44,18 +44,19 @@ const changeNavBarMobile = () => {
     }
 }
 const changeIcon = () => {
-    if ($("togg").classList.contains("fa-dot-circle")) {
-        $("togg").classList.remove("fa-dot-circle");
-        $("togg").classList.add("fa-circle");
-    } else if ($("togg").classList.contains("fa-circle")) {
-        $("togg").classList.remove("fa-circle");
-        $("togg").classList.add("fa-dot-circle");
+    if ($("togg").classList.contains("fa-bars")) {
+        $("togg").classList.remove("fa-bars");
+        $("togg").classList.add("fa-not-equal");
+    } else if ($("togg").classList.contains("fa-not-equal")) {
+        $("togg").classList.remove("fa-not-equal");
+        $("togg").classList.add("fa-bars");
     }
 }
 const hideOnClick = (linksArr) => {
     for(let i = 0; i < linksArr.length; i++) {
         linksArr[i].onclick = () => {
              $("navbarCollapse").classList.remove("show");
+             changeIcon();
          }
     }
 }

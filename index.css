@@ -48,6 +48,9 @@ body {
 .white {
     color: var(--light-color);
 }
+.orange-color {
+    color: var(--primary-color);
+}
 .my-btn {
     background-image: linear-gradient(to right, #2c3e50 0%, #3498db  51%, #2c3e50  100%);
     color: #eee;
@@ -58,6 +61,9 @@ body {
 }
 .gradient-bg {
     background-image: linear-gradient(to right top, #5684ae, #5684ae, #5684ae, #5684ae, #5684ae);
+}
+.blue-color-bg {
+    background-color: var(--secondary-color);
 }
 .green-color-bg {
     background-color: var(--emerald-green);
@@ -77,8 +83,8 @@ body {
 .tomato-color-bg {
     background-color: var(--tomato);
 }
-.hover-orange:hover {
-    background-color: var(--primary-color);
+.hover-dark:hover {
+    background-color: var(--dark-color);
 }
 @media only screen and (min-width: 768px) {
     
