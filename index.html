@@ -39,7 +39,7 @@
             <a class="nav-link" href="#projects" rel="noopener">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#coding" rel="noopener">101 Challenges</a>
+            <a class="nav-link" href="#coding" rel="noopener">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#blog" rel="noopener">Blog</a>
@@ -54,7 +54,363 @@
   <!--Main Content--> 
   <main id="home">
 
-    <!--Intro Section-->
+    <span id="coding"></span>
+    <!--Coding Challenges Section-->
+    <section class="bg-dark text-light pt-3 p-sm-5">
+      <!--JAVASCRIPT CHALLENEGES-->
+      <div class="container mt-5 pt-5 pb-5">
+        <div class="row row-cols-1">
+          <div class="col col-sm-8 mx-auto">
+            <div>
+              <h2 class="text-light">What I have done...</h2>
+              <p class="lead">
+                Here in this section, I would like to present you with some coding challenges
+                that I have worked on.
+              </p>
+            </div>
+          </div>
+
+          <!--Challenges-->
+          <div class="col-12">
+            <div class="row row-cols-1 row-cols-md-4 m-2 justify-content-center">
+
+              <!--ZEDRED APP SECTION-->
+              <div class="col-4 shadow-lg m-2 text-center yellow-color-bg pt-5 pb-5 rounded">
+                <img src="./icons/zedred.png" alt="Zedred logo">
+                <h6><strong>Zedred App</strong></h6>
+                <!--Modal Button-->
+                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#zedredModal">
+                  Learn more
+                </button>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
+                  <a href="https://zedredapp.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="zedredModal" tabindex="-1" aria-labelledby="zedredModal" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="zedredModal">Zedred App</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                              <div class="col m-2 text-center pt-5 pb-5">
+                                  <img src="./icons/zedred.png" alt="Zedred Logo">
+                                  <h6><strong>The Zedred Challenge</strong></h6>
+                                </div>
+                            </div>
+                            <div class="col text-start">
+                                <div>
+                                    <p class="lead">
+                                      The Zedred App is a simple app that let's the user play 
+                                      with some numbers. It is more like a JavaScript coding exercise. Using loops,
+                                      functions, if/then/else statements, and some logic. The user enters two numbers
+                                      between 0 and 100 or more. The app will check if the numbers are even, and will
+                                      display them in BOLD.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                          <a href="https://zedredapp.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--NASA APP SECTION-->
+              <div class="col-5 shadow-lg m-2 text-center orange-color-bg pt-5 pb-5 rounded">
+                <img src="./icons/nasaApp.png" alt="NasaApp picture">
+                <h6><strong>Nasa App</strong></h6>
+                <!--Modal Button-->
+                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#nasaModal">
+                  Learn more
+                </button>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
+                  <a href="https://nasayohan.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="nasaModal" tabindex="-1" aria-labelledby="nasaModal" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="zedredModal">Nasa App</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                              <div class="col m-2 text-center pt-5 pb-5">
+                                  <img src="./icons/nasaApp.png" alt="Nasa Logo">
+                                  <h6><strong>The Nasa Challenge</strong></h6>
+                                </div>
+                            </div>
+                            <div class="col text-start">
+                                <div>
+                                    <p class="lead">
+                                      A JavaScript coding exercise using APIs. The program 
+                                      fetchs data from an API. In this case we will use Nasa RestfulAPIs.
+                                      The user can retrieve photos taken on Mars, and get a brief description
+                                      of what camera was used, the date when the rover landed, and the date on earth.
+                                      .</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                          <a href="https://nasayohan.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!--FIZZBUZZ SECTION-->
+              <div class="col-5 shadow-lg m-2 text-center blue-color-bg pt-5 pb-5 rounded">
+                <img src="./icons/myFizzBuzz.png" alt="NasaApp picture">
+                <h6><strong>FizzBuzz App</strong></h6>
+                <!--Modal Button-->
+                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#fizzBuzzModal">
+                  Learn more
+                </button>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
+                  <a href="https://fizzbuzzyohan.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="fizzBuzzModal" tabindex="-1" aria-labelledby="fizzBuzzModal" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="fizzBuzzModal">FizzBuzz App</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                              <div class="col m-2 text-center pt-5 pb-5">
+                                  <img src="./icons/myFizzBuzz.png" alt="FizzBuzz Logo">
+                                  <h6><strong>The FizzBuzz Challenge</strong></h6>
+                                </div>
+                            </div>
+                            <div class="col text-start">
+                                <div>
+                                    <p class="lead">
+                                      The FizzBuzz App is a simple app. That checks if a number is multiple of 3
+                                      or 5 or both. If the number is just multiple of 3 then the program displays
+                                      Fizz, if the number is multiple of 5 the program displays Buzz. In the case of
+                                      a number multiple of 3, and 5 the program will display FizzBuzz with orange background.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                          <a href="https://fizzbuzzyohan.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--PALDROME SECTION-->
+              <div class="col-4 shadow-lg m-2 text-center green-color-bg pt-5 pb-5 rounded">
+                <img src="./icons/paldrome.png" alt="PalDrome picture">
+                <h6><strong>Paldrome App</strong></h6>
+                <!--Modal Button-->
+                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#paldromeModal">
+                  Learn more
+                </button>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
+                  <a href="https://paldromeyohan.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="paldromeModal" tabindex="-1" aria-labelledby="paldromeModal" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="paldromeModal">Paldrome App</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                              <div class="col m-2 text-center pt-5 pb-5">
+                                  <img src="./icons/paldrome.png" alt="Paldrome Logo">
+                                  <h6><strong>The Paldrome Challenge</strong></h6>
+                                </div>
+                            </div>
+                            <div class="col text-start">
+                                <div>
+                                    <p class="lead">
+                                      A palindrome is a word, phrase, or other sequence of characters 
+                                      that reads the same backward as forward, such as madam or racecar. 
+                                      Check the app for more information.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                          <a href="https://paldromeyohan.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--LOAN-APP SECTION-->
+              <div class="col-4 shadow-lg m-2 text-center red-cherry-color-bg pt-5 pb-5 rounded">
+                <img src="./icons/loan.png" alt="Loan App picture">
+                <h6><strong>Loan App</strong></h6>
+                <!--Modal Button-->
+                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#loanAppModal">
+                  Learn more
+                </button>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
+                  <a href="https://loanappyohan.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="loanAppModal" tabindex="-1" aria-labelledby="loanAppModal" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="loanAppModal">LoanApp</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                              <div class="col m-2 text-center pt-5 pb-5">
+                                  <img src="./icons/loan.png" alt="LoanApp Logo">
+                                  <h6><strong>The LoanApp Challenge</strong></h6>
+                                </div>
+                            </div>
+                            <div class="col text-start">
+                                <div>
+                                    <p class="lead">
+                                      The Loan App helps people find the actual cost of a loan 
+                                      with an interest rate and a specific pay period. Using simple 
+                                      math and a simple formula, we can quickly calculate and find 
+                                      the real numbers. No hidden fees here!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                          <a href="https://loanappyohan.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--LOAN-APP-MVC SECTION-->
+              <div class="col-5 shadow-lg m-2 text-center tomato-color-bg pt-5 pb-5 rounded">
+                <img src="./icons/addressBook.png" alt="Addres Book picture">
+                <h6><strong>Address Book MVC</strong></h6>
+                <!--Modal Button-->
+                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#addressBook">
+                  Learn more
+                </button>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
+                  <a href="https://yohancraftaddressbook.herokuapp.com/Contacts" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="addressBook" tabindex="-1" aria-labelledby="addressBook" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="addressBook">Address Book</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                              <div class="col m-2 text-center pt-5 pb-5">
+                                  <img src="./icons/addressBook.png" alt="Address BookLogo">
+                                  <h6><strong>The Address Book App</strong></h6>
+                                </div>
+                            </div>
+                            <div class="col text-start">
+                                <div>
+                                    <p class="lead">
+                                      A Web application created with C#, ASP.NET Core MVC.
+                                      This application lets the user create, read, update 
+                                      and delete contacts information. Also known as a CRUD application.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                          <a href="https://yohancraftaddressbook.herokuapp.com/Contacts" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--TITAN-STORE SECTION-->
+              <div class="col-5 shadow-lg m-2 text-center blue-color-bg pt-5 pb-5 rounded">
+                <img src="./icons/titan-store.png" alt="Titan-Store Logo">
+                <h6><strong>Titan-Store</strong></h6>
+                <!--Modal Button-->
+                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#titanModal">
+                  Learn more
+                </button>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
+                  <a href="https://titansportsstore.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="titanModal" tabindex="-1" aria-labelledby="titanModal" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="titanModal">Titan-Store</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                              <div class="col m-2 text-center pt-5 pb-5">
+                                  <img src="./icons/titan-store.png" alt="Titan-Store Logo">
+                                  <h6><strong>The Titan-Store</strong></h6>
+                                </div>
+                            </div>
+                            <div class="col text-start">
+                                <div>
+                                    <p class="lead">
+                                      The titan store allows a customer to sign up, 
+                                      register, and even buy. The site's fairly complex 
+                                      but not quite completed for full use. However, while 
+                                      you surface the site you can see that I have used DOM 
+                                      manipulation, data authentication, and web storage. The 
+                                      whole project has been created using vanilla JavaScript
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                          <a href="https://titansportsstore.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Intro Section
     <section class="pb-5 bg-dark">
       <div class="container pt-5 pb-5"> 
         <div class="row row-cols-1 row-cols-sm-2 mt-5 d-flex justify-content-evenly">
@@ -148,12 +504,12 @@
 
     <span id="skills"></span>
     <!--My Skills Section-->
-    <section class="bg-light pt-sm-5 pb-sm-5">
-      <div class="container mt-5 text-dark">
+    <section class="bg-dark pt-sm-5 pb-sm-5">
+      <div class="container mt-5 text-light">
         <div class="row row-cols-1 pt-5 pb-5">
           <div class="col col-sm-8 mx-auto">
             <div>
-              <h2 class="orange-color">My Skills</h2>
+              <h2 class="orange-color">What I learned...</h2>
               <p class="lead">
                 I mainly used the framework ASP.NET MVC pattern to develop full-stack 
                 web applications. I am a practical and flexible person that likes to 
@@ -163,7 +519,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="row row-cols-1 row-cols-sm-2 gy-2 justify-content-center m-sm-4">
+            <div class=" text-dark row row-cols-1 row-cols-sm-2 gy-2 justify-content-center m-sm-4">
               <!--Inner section skills columns-->
               <div class="col col-lg-4 text-center">
                 <div class="row h-100 m-1">
@@ -261,7 +617,7 @@
 
     <span id="projects"></span>
     <!--Projects Section-->
-    <section class="p-sm-5 bg-dark white">
+    <section class="p-sm-5 bg-light">
       <div class="container mt-5 mb-5 pt-5 pb-5">
         <div class="row row-cols-1">
           <div class="col col-sm-8 mx-auto">
@@ -300,407 +656,6 @@
             </div>
           </div>
 
-        </div>
-      </div>
-    </section>
-
-    <span id="coding"></span>
-    <!--Coding Challenges Section-->
-    <section class="bg-light pt-3 p-sm-5">
-      <!--JAVASCRIPT CHALLENEGES-->
-      <div class="container mt-5 pt-5 pb-5">
-        <div class="row row-cols-1">
-          <div class="col col-sm-8 mx-auto">
-            <div>
-              <h2 class="orange-color">Coding Challenges</h2>
-              <p class="lead">
-                Here in this section, I would like to present you with some coding challenges
-                that I have created along my learning journey.
-              </p>
-            </div>
-          </div>
-
-          <!--Challenges-->
-          <div class="col-12">
-            <div class="row row-cols-1 row-cols-md-4 m-2 justify-content-center">
-
-              <!--ZEDRED APP SECTION-->
-              <div class="col shadow-lg m-2 text-center yellow-color-bg pt-5 pb-5 rounded">
-                <img src="./icons/zedred.png" alt="Zedred logo">
-                <h6><strong>Zedred App</strong></h6>
-                <!--Modal Button-->
-                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#zedredModal">
-                  Learn more
-                </button>
-                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
-                  <a href="https://zedredapp.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="zedredModal" tabindex="-1" aria-labelledby="zedredModal" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="zedredModal">Zedred App</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                          <div class="row row-cols-1 row-cols-md-2">
-                            <div class="col">
-                              <div class="col m-2 text-center pt-5 pb-5">
-                                  <img src="./icons/zedred.png" alt="Zedred Logo">
-                                  <h6><strong>The Zedred Challenge</strong></h6>
-                                </div>
-                            </div>
-                            <div class="col text-start">
-                                <div>
-                                    <p class="lead">
-                                      The Zedred App is a simple app that let's the user play 
-                                      with some numbers. It is more like a JavaScript coding exercise. Using loops,
-                                      functions, if/then/else statements, and some logic. The user enters two numbers
-                                      between 0 and 100 or more. The app will check if the numbers are even, and will
-                                      display them in BOLD.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                          <a href="https://zedredapp.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--NASA APP SECTION-->
-              <div class="col shadow-lg m-2 text-center orange-color-bg pt-5 pb-5 rounded">
-                <img src="./icons/nasaApp.png" alt="NasaApp picture">
-                <h6><strong>Nasa App</strong></h6>
-                <!--Modal Button-->
-                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#nasaModal">
-                  Learn more
-                </button>
-                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
-                  <a href="https://nasayohan.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="nasaModal" tabindex="-1" aria-labelledby="nasaModal" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="zedredModal">Nasa App</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                          <div class="row row-cols-1 row-cols-md-2">
-                            <div class="col">
-                              <div class="col m-2 text-center pt-5 pb-5">
-                                  <img src="./icons/nasaApp.png" alt="Nasa Logo">
-                                  <h6><strong>The Nasa Challenge</strong></h6>
-                                </div>
-                            </div>
-                            <div class="col text-start">
-                                <div>
-                                    <p class="lead">
-                                      A JavaScript coding exercise using APIs. The program 
-                                      fetchs data from an API. In this case we will use Nasa RestfulAPIs.
-                                      The user can retrieve photos taken on Mars, and get a brief description
-                                      of what camera was used, the date when the rover landed, and the date on earth.
-                                      .</p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                          <a href="https://nasayohan.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <!--FIZZBUZZ SECTION-->
-              <div class="col shadow-lg m-2 text-center blue-color-bg pt-5 pb-5 rounded">
-                <img src="./icons/myFizzBuzz.png" alt="NasaApp picture">
-                <h6><strong>FizzBuzz App</strong></h6>
-                <!--Modal Button-->
-                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#fizzBuzzModal">
-                  Learn more
-                </button>
-                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
-                  <a href="https://fizzbuzzyohan.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="fizzBuzzModal" tabindex="-1" aria-labelledby="fizzBuzzModal" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="fizzBuzzModal">FizzBuzz App</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                          <div class="row row-cols-1 row-cols-md-2">
-                            <div class="col">
-                              <div class="col m-2 text-center pt-5 pb-5">
-                                  <img src="./icons/myFizzBuzz.png" alt="FizzBuzz Logo">
-                                  <h6><strong>The FizzBuzz Challenge</strong></h6>
-                                </div>
-                            </div>
-                            <div class="col text-start">
-                                <div>
-                                    <p class="lead">
-                                      The FizzBuzz App is a simple app. That checks if a number is multiple of 3
-                                      or 5 or both. If the number is just multiple of 3 then the program displays
-                                      Fizz, if the number is multiple of 5 the program displays Buzz. In the case of
-                                      a number multiple of 3, and 5 the program will display FizzBuzz with orange background.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                          <a href="https://fizzbuzzyohan.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--PALDROME SECTION-->
-              <div class="col shadow-lg m-2 text-center green-color-bg pt-5 pb-5 rounded">
-                <img src="./icons/paldrome.png" alt="PalDrome picture">
-                <h6><strong>Paldrome App</strong></h6>
-                <!--Modal Button-->
-                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#paldromeModal">
-                  Learn more
-                </button>
-                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
-                  <a href="https://paldromeyohan.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="paldromeModal" tabindex="-1" aria-labelledby="paldromeModal" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="paldromeModal">Paldrome App</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                          <div class="row row-cols-1 row-cols-md-2">
-                            <div class="col">
-                              <div class="col m-2 text-center pt-5 pb-5">
-                                  <img src="./icons/paldrome.png" alt="Paldrome Logo">
-                                  <h6><strong>The Paldrome Challenge</strong></h6>
-                                </div>
-                            </div>
-                            <div class="col text-start">
-                                <div>
-                                    <p class="lead">
-                                      A palindrome is a word, phrase, or other sequence of characters 
-                                      that reads the same backward as forward, such as madam or racecar. 
-                                      Check the app for more information.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                          <a href="https://paldromeyohan.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--LOAN-APP SECTION-->
-              <div class="col shadow-lg m-2 text-center red-cherry-color-bg pt-5 pb-5 rounded">
-                <img src="./icons/loan.png" alt="Loan App picture">
-                <h6><strong>Loan App</strong></h6>
-                <!--Modal Button-->
-                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#loanAppModal">
-                  Learn more
-                </button>
-                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
-                  <a href="https://loanappyohan.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="loanAppModal" tabindex="-1" aria-labelledby="loanAppModal" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="loanAppModal">LoanApp</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                          <div class="row row-cols-1 row-cols-md-2">
-                            <div class="col">
-                              <div class="col m-2 text-center pt-5 pb-5">
-                                  <img src="./icons/loan.png" alt="LoanApp Logo">
-                                  <h6><strong>The LoanApp Challenge</strong></h6>
-                                </div>
-                            </div>
-                            <div class="col text-start">
-                                <div>
-                                    <p class="lead">
-                                      The Loan App helps people find the actual cost of a loan 
-                                      with an interest rate and a specific pay period. Using simple 
-                                      math and a simple formula, we can quickly calculate and find 
-                                      the real numbers. No hidden fees here!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                          <a href="https://loanappyohan.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--LOAN-APP-MVC SECTION-->
-              <div class="col shadow-lg m-2 text-center tomato-color-bg pt-5 pb-5 rounded">
-                <img src="./icons/addressBook.png" alt="Addres Book picture">
-                <h6><strong>Address Book MVC</strong></h6>
-                <!--Modal Button-->
-                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#addressBook">
-                  Learn more
-                </button>
-                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
-                  <a href="https://yohancraftaddressbook.herokuapp.com/Contacts" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="addressBook" tabindex="-1" aria-labelledby="addressBook" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="addressBook">Address Book</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                          <div class="row row-cols-1 row-cols-md-2">
-                            <div class="col">
-                              <div class="col m-2 text-center pt-5 pb-5">
-                                  <img src="./icons/addressBook.png" alt="Address BookLogo">
-                                  <h6><strong>The Address Book App</strong></h6>
-                                </div>
-                            </div>
-                            <div class="col text-start">
-                                <div>
-                                    <p class="lead">
-                                      A Web application created with C#, ASP.NET Core MVC.
-                                      This application lets the user create, read, update 
-                                      and delete contacts information. Also known as a CRUD application.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                          <a href="https://yohancraftaddressbook.herokuapp.com/Contacts" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--TITAN-STORE SECTION-->
-              <div class="col shadow-lg m-2 text-center blue-color-bg pt-5 pb-5 rounded">
-                <img src="./icons/titan-store.png" alt="Titan-Store Logo">
-                <h6><strong>Titan-Store</strong></h6>
-                <!--Modal Button-->
-                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#titanModal">
-                  Learn more
-                </button>
-                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
-                  <a href="https://titansportsstore.netlify.app/" target="_blank" class="text-decoration-none text-light" rel="noopener">Live Demo</a>
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="titanModal" tabindex="-1" aria-labelledby="titanModal" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="titanModal">Titan-Store</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                          <div class="row row-cols-1 row-cols-md-2">
-                            <div class="col">
-                              <div class="col m-2 text-center pt-5 pb-5">
-                                  <img src="./icons/titan-store.png" alt="Titan-Store Logo">
-                                  <h6><strong>The Titan-Store</strong></h6>
-                                </div>
-                            </div>
-                            <div class="col text-start">
-                                <div>
-                                    <p class="lead">
-                                      The titan store allows a customer to sign up, 
-                                      register, and even buy. The site's fairly complex 
-                                      but not quite completed for full use. However, while 
-                                      you surface the site you can see that I have used DOM 
-                                      manipulation, data authentication, and web storage. The 
-                                      whole project has been created using vanilla JavaScript
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                          <a href="https://titansportsstore.netlify.app/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--HABANA DELICIOSA SECTION-->
-              <div class="col shadow-lg m-2 text-center orange-color-bg pt-5 pb-5 rounded">
-                <img src="./icons/habanaDeliciosa.png" alt="Habana Deliciosa Logo">
-                <h6><strong>Habana Deliciosa</strong></h6>
-                <!--Modal Button-->
-                <button type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#habanaDeliciosaModal">
-                  Learn more
-                </button>
-                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal">
-                  <a href="https://www.habanadeliciosa.com/" target="_blank" class="text-decoration-none text-white" rel="noopener">Live Demo</a>
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="habanaDeliciosaModal" tabindex="-1" aria-labelledby="habanaDeliciosaModal" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="habanaDeliciosaModal">Habana Deliciosa</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                          <div class="row row-cols-1 row-cols-md-2">
-                            <div class="col">
-                              <div class="col m-2 text-center pt-5 pb-5">
-                                  <img src="./icons/habanaDeliciosa.png" alt="Habana Deliciosa Logo">
-                                  <h6><strong>Habana Deliciosa</strong></h6>
-                                </div>
-                            </div>
-                            <div class="col text-start">
-                                <div>
-                                    <p class="lead">
-                                      Habana Deliciosa is a static website. Mainly created using HTML5, CSS3, and BOOTSTRAP-5
-                                      It is simple but serves its purpose of bringing customers. Helping them to know 
-                                      the place and what they do before going.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                          <a href="https://www.habanadeliciosa.com/" target="_blank" class="nav-link text-dark"><button class="btn btn-primary">Live Demo</button></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
