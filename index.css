@@ -40,8 +40,11 @@ body {
     box-shadow: none;
 }
 .header-bg {
-    background: rgb(0,212,255);
-    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 0%, rgba(9,15,125,1) 49%, rgba(2,0,36,1) 100%);}
+    /*background: rgb(254,254,254);
+    background: linear-gradient(56deg, rgba(254,254,254,1) 0%, rgba(254,188,88,1) 76%);
+    */
+    background-image: url(./images/header-bg.png);
+}
 .main-bg {
     background-color: var(--secondary-color);
 }
