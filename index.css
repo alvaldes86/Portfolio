@@ -39,6 +39,9 @@ body {
     outline: none;
     box-shadow: none;
 }
+.header-bg {
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 0%, rgba(9,15,125,1) 49%, rgba(2,0,36,1) 100%);}
 .main-bg {
     background-color: var(--secondary-color);
 }
