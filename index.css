@@ -39,12 +39,7 @@ body {
     outline: none;
     box-shadow: none;
 }
-.header-bg {
-    /*background: rgb(254,254,254);
-    background: linear-gradient(56deg, rgba(254,254,254,1) 0%, rgba(254,188,88,1) 76%);
-    */
-    background-image: url(./images/header-bg.png);
-}
+
 .main-bg {
     background-color: var(--secondary-color);
 }
