@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #F17720;
+    --secondary-color: #00719C;
+    --light-color: #EBEBEB;
+    --dark-color: #292929;
+    --white-color: #eee;
+    --black-color: #111;
+    --emerald-green: 	#50C878;
+    --red-cherry: #D2042D;
+    --yellow-amber: #FFBF00;
+    --tomato: #FF6347;
+}
+* {
+    box-sizing: content-box;
+    font-family: 'Abel', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.bg {
+    background-color: #308cc9;
+}
+.hover-dark:hover {
+    background-color: var(--dark-color);
+}
