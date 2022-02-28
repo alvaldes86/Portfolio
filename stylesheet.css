@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #F17720;
-    --secondary-color: #00719C;
+    --primary-color: #11aaa6;
+    --secondary-color: #fe5a00;
     --light-color: #EBEBEB;
     --dark-color: #292929;
     --white-color: #eee;
@@ -12,7 +12,7 @@
 }
 * {
     box-sizing: content-box;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 html {
     scroll-behavior: smooth;
@@ -26,4 +26,14 @@ body {
 }
 .hover-dark:hover {
     background-color: var(--dark-color);
+}
+.main-color {
+    color: var(--primary-color);
+}
+.secondary-color {
+    color: var(--secondary-color);
+}
+.gr-bg {
+    background: rgb(31,210,150);
+    background: linear-gradient(56deg, rgba(31,210,150,1) 10%, rgba(17,169,165,1) 55%, rgba(254,90,0,1) 89%, rgba(254,90,0,1) 100%);
 }
