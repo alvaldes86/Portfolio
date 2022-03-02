@@ -24,6 +24,10 @@ body {
 .bg {
     background-color: #308cc9;
 }
+.projects-bg {
+    background-image: url(./img/projects-bg.png);
+    background-size: cover;
+}
 .hover-dark:hover {
     background-color: var(--dark-color);
 }
