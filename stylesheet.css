@@ -21,6 +21,14 @@ body {
     margin: 0;
     padding: 0;
 }
+.title-animation {
+    transition-property:color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.title-animation:hover {
+    color: var(--secondary-color);
+}
 .bg {
     background-color: #308cc9;
 }
@@ -29,7 +37,16 @@ body {
     background-size: cover;
 }
 .hover-dark:hover {
-    background-color: var(--dark-color);
+    background-color: var(--light-color);
+    font-weight: bolder;
+}
+#hover-animation {
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#hover-animation:hover {
+    background-color: var(--light-color);
 }
 .main-color {
     color: var(--primary-color);
