@@ -58,6 +58,7 @@ window.onload = () => {
     addOccupation($("devName").innerHTML);
     
     setInterval(()=>{
+        $("devName").innerHTML = "";
         addName();
         addOccupation($("devName").innerHTML);
     }, 9000);
