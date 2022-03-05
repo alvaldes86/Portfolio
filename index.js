@@ -2,6 +2,19 @@
 
 
 const $ = (id) => {return document.getElementById(id)};           
+const addName = () => {
+    let name = ["Y", "o", "h", "a", "n", " ", "V", "a", "l", "d", "e", "s", ".", ".", ".", "."];
+    let myInterval = setInterval(()=>{
+        if(name.length >= 1) {
+            $("devName").innerHTML += name[0];
+            name.shift();
+        }
+        if(name.length == 0) {
+            clearInterval(myInterval);
+            addOccupation($("devName").innerHTML);
+        }
+    }, 150);
+}
 
 const addOccupation = (str) => {
     let arrName = [];
@@ -34,27 +47,11 @@ const addOccupation = (str) => {
                     if(occupation.length == 0) {
                         clearInterval(mySecInterval);
                     }
-                }, 125);
+                }, 150);
             }
         }
-    }, 125)
+    }, 150)
 }
-
-const addName = () => {
-    let name = ["Y", "o", "h", "a", "n", " ", "V", "a", "l", "d", "e", "s", ".", ".", ".", "."];
-    
-    let myInterval = setInterval(()=>{
-        if(name.length >= 1) {
-            $("devName").innerHTML += name[0];
-            name.shift();
-        }
-        if(name.length == 0) {
-            clearInterval(myInterval);
-            addOccupation($("devName").innerHTML);
-        }
-    }, 125);
-}
-
 
 window.onload = () => {
     addName();

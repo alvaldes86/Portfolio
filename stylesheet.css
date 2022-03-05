@@ -5,7 +5,7 @@
     --dark-color: #292929;
     --white-color: #eee;
     --black-color: #111;
-    --emerald-green: 	#50C878;
+    --emerald-green: #50C878;
     --red-cherry: #D2042D;
     --yellow-amber: #FFBF00;
     --tomato: #FF6347;
@@ -35,10 +35,6 @@ body {
     background-image: url(./img/projects-bg.png);
     background-size: cover;
 }
-.hover-dark:hover {
-    background-color: var(--light-color);
-    font-weight: bolder;
-}
 #hover-animation {
     transition-property: background-color;
     transition-duration: 0.5s;
@@ -46,6 +42,14 @@ body {
 }
 #hover-animation:hover {
     background-color: var(--light-color);
+}
+#hover-dark-animation {
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+#hover-dark-animation:hover {
+    background-color: var(--primary-color);
 }
 .main-color {
     color: var(--primary-color);
