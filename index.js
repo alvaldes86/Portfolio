@@ -18,7 +18,7 @@ const addName = () => {
 
 const addOccupation = (str) => {
     let arrName = [];
-    let occupation = ["S", "o", "f", "t", "w", "a", "r", "e", " ", "D", "e", "v", "e", "l", "o", "p", "e", "r"];
+    let occupation = ["S", "o", "f", "t", "w", "a", "r", "e", " ", "D", "e", "v", "e", "l", "o", "p", "e", "r", ".", ".", ".", "."];
 
     //gets the devName
     for(let i = 0; i < str.length; i++) {
@@ -38,7 +38,6 @@ const addOccupation = (str) => {
             clearInterval(myInterval);
             //once empty add the occupation
             if($("devName").innerHTML.length == 0) {
-                console.log("add occupation");
                 let mySecInterval = setInterval(()=>{
                     if(occupation.length >= 1) {
                         $("devName").innerHTML += occupation[0];
@@ -57,4 +56,10 @@ window.onload = () => {
     
     addName();
     addOccupation($("devName").innerHTML);
+    
+    setInterval(()=>{
+        addName();
+        addOccupation($("devName").innerHTML);
+    }, 9000);
+    
 }
