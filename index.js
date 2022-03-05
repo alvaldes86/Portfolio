@@ -41,7 +41,7 @@ const addOccupation = (str) => {
 }
 
 const addName = () => {
-    let name = ["Y", "o", "h", "a", "n", " ", "V", "a", "l", "d", "e", "s"];
+    let name = ["Y", "o", "h", "a", "n", " ", "V", "a", "l", "d", "e", "s", ".", ".", ".", "."];
     
     let myInterval = setInterval(()=>{
         if(name.length >= 1) {
