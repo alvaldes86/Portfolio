@@ -54,6 +54,7 @@ const addOccupation = (str) => {
 }
 
 window.onload = () => {
+    
     addName();
     addOccupation($("devName").innerHTML);
 }
