@@ -3,20 +3,19 @@
 
 const $ = (id) => {return document.getElementById(id)}
 
-const changeName = () => {
-    $("devName").onmouseover = () => {
-        $("devName").innerHTML = "Software Developer";
 
-        if(!$("devName").classList.contains("title-animation")) {
-            $("devName").classList.add("title-animation");
-        } 
-
-    } 
-    $("devName").onmouseleave = () => {
-        $("devName").innerHTML = "Yohan Valdes";
-    }
-}
 
 window.onload = () => {
-    changeName();
+
+    let name = ["Y", "o", "h", "a", "n", " ", "V", "a", "l", "d", "e", "s"];
+    
+    let myInterval = setInterval(()=>{
+        if(name.length >= 1) {
+            $("devName").innerHTML += name[0];
+            name.shift();
+        }
+        if(name.length == 0) {
+            clearInterval(myInterval);
+        }
+    }, 125);
 }
