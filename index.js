@@ -55,17 +55,17 @@ const addOccupation = (str) => {
 }
 const overProjects = () => {
     if(window.screen.width <= 476) {
-        if(window.pageYOffset > 1235 && window.pageYOffset < 1490) {
+        if(window.pageYOffset > 1020 && window.pageYOffset < 1220) {
             $("soft").classList.add("bg");
         } else {
             $("soft").classList.remove("bg");
         }
-        if(window.pageYOffset > 1491 && window.pageYOffset < 1890) {
+        if(window.pageYOffset > 1221 && window.pageYOffset < 1520) {
             $("tech").classList.add("bg");
         } else {
             $("tech").classList.remove("bg");   
         }
-        if(window.pageYOffset > 1891 && window.pageYOffset < 2156) {
+        if(window.pageYOffset > 1521 && window.pageYOffset < 1736) {
             $("tools").classList.add("bg");
         } else {
             $("tools").classList.remove("bg");   
@@ -91,4 +91,5 @@ window.onload = () => {
 }
 window.onscroll = () => {
     overProjects();
+    console.log(window.pageYOffset);
 }
