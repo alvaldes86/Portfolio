@@ -53,7 +53,29 @@ const addOccupation = (str) => {
         }
     }, 150)
 }
-
+const overProjects = () => {
+    if(window.screen.width <= 476) {
+        if(window.pageYOffset > 1235 && window.pageYOffset < 1490) {
+            $("soft").classList.add("bg");
+        } else {
+            $("soft").classList.remove("bg");
+        }
+        if(window.pageYOffset > 1491 && window.pageYOffset < 1890) {
+            $("tech").classList.add("bg");
+        } else {
+            $("tech").classList.remove("bg");   
+        }
+        if(window.pageYOffset > 1891 && window.pageYOffset < 2156) {
+            $("tools").classList.add("bg");
+        } else {
+            $("tools").classList.remove("bg");   
+        }
+    } else {
+        $("soft").classList.remove("bg");
+        $("tech").classList.remove("bg");
+        $("tools").classList.remove("bg");
+    }
+}
 window.onload = () => {
     
     addName();
@@ -68,21 +90,5 @@ window.onload = () => {
     
 }
 window.onscroll = () => {
-    console.log(window.pageYOffset);
-    
-    if(window.pageYOffset > 1235 && window.pageYOffset < 1490) {
-        $("soft").classList.add("bg");
-    } else {
-        $("soft").classList.remove("bg");
-    }
-    if(window.pageYOffset > 1491 && window.pageYOffset < 1890) {
-        $("tech").classList.add("bg");
-    } else {
-        $("tech").classList.remove("bg");   
-    }
-    if(window.pageYOffset > 1891 && window.pageYOffset < 2156) {
-        $("tools").classList.add("bg");
-    } else {
-        $("tools").classList.remove("bg");   
-    }
+    overProjects();
 }
