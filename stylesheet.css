@@ -31,7 +31,7 @@ body {
     z-index: 1;
 }
 /*Call-Text-Section*/
-.tel-container, .sms-container {
+.tel-container, .sms-container, .email-container {
     margin-bottom: 5px;
     margin-right: 5px;
     padding: 10px 10px;
