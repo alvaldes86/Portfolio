@@ -62,12 +62,13 @@ body {
     color: var(--secondary-color);
 }
 .bg {
-    background-color: #308cc9;
+    background-color: var(--primary-color);
 }
 .projects-bg {
     background-image: url(./img/projects-bg.png);
     background-size: cover;
 }
+/*Project Animation*/
 #hover-animation {
     transition-property: background-color;
     transition-duration: 0.5s;
@@ -76,12 +77,13 @@ body {
 #hover-animation:hover {
     background-color: var(--light-color);
 }
-#hover-dark-animation {
+/*Skills & Experience Animation*/
+#soft, #tech, #tools {
     transition-property: background-color;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
 }
-#hover-dark-animation:hover {
+#soft:hover, #tech:hover, #tools:hover{
     background-color: var(--primary-color);
 }
 .main-color {

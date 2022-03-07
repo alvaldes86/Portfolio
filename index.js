@@ -1,7 +1,10 @@
 "use strict"
 
+//retrieves element by ID
+const $ = (id) => {return document.getElementById(id)};
+//retrieves element by CLASS
+const getClass = (clss) => {return document.getElementsByClassName(clss)};
 
-const $ = (id) => {return document.getElementById(id)};           
 const addName = () => {
     let name = ["Y", "o", "h", "a", "n", " ", "V", "a", "l", "d", "e", "s", ".", ".", ".", "."];
     let myInterval = setInterval(()=>{
@@ -66,12 +69,20 @@ window.onload = () => {
 }
 window.onscroll = () => {
     console.log(window.pageYOffset);
-    if(window.pageYOffset > 1235 && window.pageYOffset < 1571) {
-        $("hover-dark-animation").classList.add("bg");
+    
+    if(window.pageYOffset > 1235 && window.pageYOffset < 1490) {
+        $("soft").classList.add("bg");
     } else {
-        $("hover-dark-animation").classList.remove("bg");
+        $("soft").classList.remove("bg");
     }
-    if(window.pageYOffset > 272 && window.pageYOffset < 720) {
-        console.log("We are in project section");
-    }   
+    if(window.pageYOffset > 1491 && window.pageYOffset < 1890) {
+        $("tech").classList.add("bg");
+    } else {
+        $("tech").classList.remove("bg");   
+    }
+    if(window.pageYOffset > 1891 && window.pageYOffset < 2156) {
+        $("tools").classList.add("bg");
+    } else {
+        $("tools").classList.remove("bg");   
+    }
 }
