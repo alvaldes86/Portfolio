@@ -53,6 +53,7 @@ const addOccupation = (str) => {
         }
     }, 150)
 }
+
 const overProjects = () => {
     if(window.screen.width <= 476) {
         if(window.pageYOffset > 1020 && window.pageYOffset < 1220) {
@@ -76,6 +77,7 @@ const overProjects = () => {
         $("tools").classList.remove("bg");
     }
 }
+
 window.onload = () => {
     
     addName();
@@ -86,7 +88,6 @@ window.onload = () => {
         addName();
         addOccupation($("devName").innerHTML);
     }, 9000);
-
     
 }
 window.onscroll = () => {

@@ -44,6 +44,19 @@ body {
     text-decoration: none;
     color: var(--secondary-color);
 }
+/*Desktop Contact Buttons*/
+.links-container {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    background: none;
+}
+.github, .linkedin {
+    color: var(--light-color);
+}
 .white-color {
     color: var(--white-color);
 }
