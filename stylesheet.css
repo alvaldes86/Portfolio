@@ -21,8 +21,38 @@ body {
     margin: 0;
     padding: 0;
 }
+ /*Call-Text-Section*/
+ .call-text-buttons {
+    margin: 10px 5px;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+/*Call-Text-Section*/
+.tel-container, .sms-container {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+/*Call-Text-Section*/
+.tel, .sms {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.white-color {
+    color: var(--white-color);
+}
+.gr-color {
+    background: rgb(0,191,255);
+    background: linear-gradient(56deg, rgba(0,191,255,1) 0%, rgba(153,186,221,1) 100%);
+}
 .devName {
-    height: 90px;
+    height: 70px;
 }
 .title-animation {
     transition-property:color;
@@ -63,4 +93,9 @@ body {
 .gr-bg {
     background: rgb(31,210,150);
     background: linear-gradient(56deg, rgba(31,210,150,1) 10%, rgba(17,169,165,1) 55%, rgba(254,90,0,1) 89%, rgba(254,90,0,1) 100%);
+}
+@media only screen and (min-width: 900px) {
+    .call-text-buttons {
+        display: none;
+    }
 }
