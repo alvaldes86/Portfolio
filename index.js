@@ -66,5 +66,12 @@ window.onload = () => {
 }
 window.onscroll = () => {
     console.log(window.pageYOffset);
-    
+    if(window.pageYOffset > 1235 && window.pageYOffset < 1571) {
+        $("hover-dark-animation").classList.add("bg");
+    } else {
+        $("hover-dark-animation").classList.remove("bg");
+    }
+    if(window.pageYOffset > 272 && window.pageYOffset < 720) {
+        console.log("We are in project section");
+    }   
 }
