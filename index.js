@@ -15,7 +15,6 @@ const addName = () => {
         }
     }, 150);
 }
-
 const addOccupation = (str) => {
     let arrName = [];
     let occupation = ["S", "o", "f", "t", "w", "a", "r", "e", " ", "D", "e", "v", "e", "l", "o", "p", "e", "r", ".", ".", ".", "."];
@@ -62,5 +61,10 @@ window.onload = () => {
         addName();
         addOccupation($("devName").innerHTML);
     }, 9000);
+
+    
+}
+window.onscroll = () => {
+    console.log(window.pageYOffset);
     
 }
