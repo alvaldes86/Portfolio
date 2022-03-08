@@ -83,11 +83,12 @@ window.onload = () => {
     addName();
     addOccupation($("devName").innerHTML);
     
-    setInterval(()=>{
+    let interval = setInterval(()=>{
         $("devName").innerHTML = "";
         addName();
         addOccupation($("devName").innerHTML);
     }, 9000);
+    clearInterval(interval);
     
 }
 window.onscroll = () => {
