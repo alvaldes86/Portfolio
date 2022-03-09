@@ -20,7 +20,7 @@ const addName = () => {
 }
 const addOccupation = (str) => {
     let arrName = [];
-    let occupation = ["S", "o", "f", "t", "w", "a", "r", "e", " ", "D", "e", "v", "e", "l", "o", "p", "e", "r", ".", ".", ".", "."];
+    let occupation = ["S", "o", "f", "t", "w", "a", "r", "e", " ", "D", "e", "v", "e", "l", "o", "p", "e", "r"];
 
     //gets the devName
     for(let i = 0; i < str.length; i++) {
@@ -56,17 +56,17 @@ const addOccupation = (str) => {
 
 const overProjects = () => {
     if(window.screen.width <= 476) {
-        if(window.pageYOffset > 1020 && window.pageYOffset < 1220) {
+        if(window.pageYOffset > 672 && window.pageYOffset < 868) {
             $("soft").classList.add("bg");
         } else {
             $("soft").classList.remove("bg");
         }
-        if(window.pageYOffset > 1221 && window.pageYOffset < 1520) {
+        if(window.pageYOffset > 869 && window.pageYOffset < 1185) {
             $("tech").classList.add("bg");
         } else {
             $("tech").classList.remove("bg");   
         }
-        if(window.pageYOffset > 1521 && window.pageYOffset < 1736) {
+        if(window.pageYOffset > 1186 && window.pageYOffset < 1405) {
             $("tools").classList.add("bg");
         } else {
             $("tools").classList.remove("bg");   
@@ -93,5 +93,5 @@ window.onload = () => {
 }
 window.onscroll = () => {
     overProjects();
-    console.log(window.pageYOffset);
+    //console.log(window.pageYOffset);
 }
