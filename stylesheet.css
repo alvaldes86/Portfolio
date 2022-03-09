@@ -105,6 +105,9 @@ body {
     background: rgb(31,210,150);
     background: linear-gradient(56deg, rgba(31,210,150,1) 10%, rgba(17,169,165,1) 55%, rgba(254,90,0,1) 89%, rgba(254,90,0,1) 100%);
 }
+.border-left {
+    border-left: 1px solid var(--secondary-color);
+}
 @media only screen and (min-width: 900px) {
     .call-text-email-buttons {
         display: none;
