@@ -21,6 +21,10 @@ body {
     margin: 0;
     padding: 0;
 }
+.round-img {
+    border-radius: 200px;
+    border: 5px solid var(--dark-color);
+}
  /*Call-Text-Section*/
  .call-text-email-buttons {
     margin: 10px 5px;
