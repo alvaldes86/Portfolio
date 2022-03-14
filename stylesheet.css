@@ -1,11 +1,12 @@
 :root {
-    --primary-color: #11aaa6;
-    --secondary-color: #fe5a00;
+    --primary-color: #6f2fa3;
+    --secondary-color: #1aa0e3;
     --light-color: #EBEBEB;
     --dark-color: #111;
     --white-color: #eee;
     --black-color: #111;
     --emerald-green: #50C878;
+    --dark-charc: #36454F;
     --red-cherry: #D2042D;
     --yellow-amber: #FFBF00;
     --tomato: #FF6347;
@@ -20,6 +21,9 @@ html {
 body {
     margin: 0;
     padding: 0;
+}
+.dark-charc {
+    background-color: var(--dark-charc);
 }
 .round-img {
     border-radius: 200px;
@@ -58,10 +62,10 @@ body {
     background: none;
 }
 .github, .linkedin {
-    color: var(--light-color);
+    color: var(--primary-color);
 }
 .github:hover, .linkedin:hover {
-    color: #111;
+    color: var(--secondary-color);
 }
 .white-color {
     color: var(--white-color);
@@ -69,15 +73,20 @@ body {
 .gr-color {
     background-color: var(--dark-color);
 }
-.bShadow {
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 0px 1px 0px var(--secondary-color);
-}
 .devName {
     height: 70px;
     margin-top: 15px;
-    color: var(--primary-color);
+}
+.bShadow {
+    box-shadow: 3px 0px 1px 0px var(--primary-color);
+}
+.my-btn {
+    background: rgb(111,47,163);
+    background: linear-gradient(336deg, rgba(111,47,163,1) 35%, rgba(26,160,227,1) 100%);font-weight: bolder;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 35px;
+    box-shadow: 1px 0px 1px 0px var(--primary-color);
 }
 .title-animation {
     transition-property:color;
@@ -96,7 +105,7 @@ body {
     transition-timing-function: ease-in-out;
 }
 #hover-animation:hover {
-    background-color: var(--light-color);
+    background-color: var(--primary-color);
 }
 /*Coding Challenges Animation*/
 #hover-animation-2 {
@@ -105,7 +114,7 @@ body {
     transition-timing-function: ease-in-out;
 }
 #hover-animation-2:hover {
-    background-color: var(--dark-color);
+    background-color: var(--primary-color);
 }
 /*Skills & Experience Animation*/
 #soft, #tech, #tools {
