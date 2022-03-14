@@ -2,7 +2,7 @@
     --primary-color: #11aaa6;
     --secondary-color: #fe5a00;
     --light-color: #EBEBEB;
-    --dark-color: #292929;
+    --dark-color: #111;
     --white-color: #eee;
     --black-color: #111;
     --emerald-green: #50C878;
@@ -23,7 +23,6 @@ body {
 }
 .round-img {
     border-radius: 200px;
-    border: 5px solid var(--dark-color);
 }
  /*Call-Text-Section*/
  .call-text-email-buttons {
@@ -68,11 +67,17 @@ body {
     color: var(--white-color);
 }
 .gr-color {
-    background: rgb(0,191,255);
-    background: linear-gradient(90deg, rgba(0,191,255,1) 0%, rgba(41,41,41,1) 100%);
+    background-color: var(--dark-color);
+}
+.bShadow {
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 0px 1px 0px var(--secondary-color);
 }
 .devName {
     height: 70px;
+    margin-top: 15px;
+    color: var(--primary-color);
 }
 .title-animation {
     transition-property:color;
