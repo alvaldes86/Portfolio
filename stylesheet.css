@@ -80,10 +80,10 @@ body {
     background: none;
 }
 .github, .linkedin {
-    color: var(--black-color);
+    color: var(--white-color);
 }
 .github:hover, .linkedin:hover {
-    color: var(--primary-color);
+    color: var(--light-color);
 }
 .white-color {
     color: var(--white-color);
