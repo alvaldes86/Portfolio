@@ -80,7 +80,7 @@ body {
     background: none;
 }
 .github, .linkedin {
-    color: var(--dark-color);
+    color: var(--black-color);
 }
 .github:hover, .linkedin:hover {
     color: var(--primary-color);
@@ -104,7 +104,10 @@ body {
     border: none;
     border-radius: 5px;
     padding: 5px 15px;
-    box-shadow: 1px 1px 1px 1px var(--dark-charc);
+    box-shadow: 1px 1px 1px 1px var(--primary-color);
+}
+.my-btn:hover {
+    background-color: var(--primary-color);
 }
 .title-animation {
     transition-property:color;
