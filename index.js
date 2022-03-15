@@ -6,7 +6,7 @@ const $ = (id) => {return document.getElementById(id)};
 const getClass = (clss) => {return document.getElementsByClassName(clss)};
 
 const addName = () => {
-    let name = ["Y", "o", "h", "a", "n", " ", "V", "a", "l", "d", "e", "s", ".", ".", ".", "."];
+    let name = ["Y", "o", "h", "a", "n", " ", "G", "a", "r", "c", "i", "a", ".", ".", ".", "."];
     let myInterval = setInterval(()=>{
         if(name.length >= 1) {
             $("devName").innerHTML += name[0];
