@@ -98,11 +98,12 @@ body {
     box-shadow: 3px 0px 1px 0px var(--primary-color);
 }
 .my-btn {
-    background-image: linear-gradient(to left, #6f2fa3, #5853be, #3a70d1, #1989dd, #1aa0e3);
+    background-color: none;
+    background: none;
     border: none;
     border-radius: 5px;
     padding: 5px 15px;
-    box-shadow: 1px 0px 1px 0px var(--primary-color);
+    box-shadow: 1px 1px 1px 1px var(--dark-charc);
 }
 .title-animation {
     transition-property:color;
