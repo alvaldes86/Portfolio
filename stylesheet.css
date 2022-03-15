@@ -44,7 +44,7 @@ body {
    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     margin-top: 10px;
-    box-shadow: 1px 1px 5px 1px var(--light-color);
+    width: 100%;
 }
  /*Call-Text-Section*/
  .call-text-email-buttons {
@@ -152,10 +152,6 @@ body {
 .secondary-color {
     color: var(--secondary-color);
 }
-.gr-bg {
-    background: rgb(31,210,150);
-    background: linear-gradient(56deg, rgba(31,210,150,1) 10%, rgba(17,169,165,1) 55%, rgba(254,90,0,1) 89%, rgba(254,90,0,1) 100%);
-}
 .border-left {
     border-left: 1px solid var(--secondary-color);
 }
@@ -163,13 +159,8 @@ body {
     .call-text-email-buttons {
         display: none;
     }
-    .box-blur {
-        background-color: rgba(255, 255, 255, 0.3);
-        border-radius: 5px;
-       -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(3px);
-        width: 20%;
-        height: 20%;
-        margin-top: 10px;
+    .box-blur-2 {
+        width: 75%;
+        margin: auto;
     }
 }
