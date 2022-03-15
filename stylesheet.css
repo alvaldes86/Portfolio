@@ -119,6 +119,9 @@ body {
 .bg {
     background-color: var(--primary-color);
 }
+.round-img {
+    border-radius: 200px;
+}
 /*Project Animation*/
 #hover-animation {
     transition-property: background-color;
