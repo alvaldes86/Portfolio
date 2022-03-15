@@ -1,8 +1,8 @@
 :root {
     --primary-color: #6f2fa3;
     --secondary-color: #1aa0e3;
-    --light-color: #EBEBEB;
-    --dark-color: #111;
+    --light-color: #5e5f64;
+    --dark-color: #2f3035;
     --white-color: #eee;
     --black-color: #111;
     --emerald-green: #50C878;
@@ -22,11 +22,28 @@ body {
     margin: 0;
     padding: 0;
 }
-.dark-charc {
-    background-color: var(--dark-charc);
+.landing-bg {
+    background-image: url(./img/landing-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.round-img {
-    border-radius: 200px;
+/*BLACKDROP-FILTER*/
+.box-blur {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+   -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
+    width: 50%;
+    height: 20%;
+    margin-top: 10px;
+}
+.box-blur-2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+   -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
+    margin-top: 10px;
 }
  /*Call-Text-Section*/
  .call-text-email-buttons {
@@ -62,10 +79,10 @@ body {
     background: none;
 }
 .github, .linkedin {
-    color: var(--primary-color);
+    color: var(--dark-charc);
 }
 .github:hover, .linkedin:hover {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 .white-color {
     color: var(--white-color);
@@ -81,11 +98,10 @@ body {
     box-shadow: 3px 0px 1px 0px var(--primary-color);
 }
 .my-btn {
-    background: rgb(111,47,163);
-    background: linear-gradient(336deg, rgba(111,47,163,1) 35%, rgba(26,160,227,1) 100%);font-weight: bolder;
+    background-image: linear-gradient(to left, #6f2fa3, #5853be, #3a70d1, #1989dd, #1aa0e3);
     border: none;
-    border-radius: 25px;
-    padding: 10px 35px;
+    border-radius: 5px;
+    padding: 5px 15px;
     box-shadow: 1px 0px 1px 0px var(--primary-color);
 }
 .title-animation {
@@ -141,5 +157,14 @@ body {
 @media only screen and (min-width: 900px) {
     .call-text-email-buttons {
         display: none;
+    }
+    .box-blur {
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+       -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(3px);
+        width: 20%;
+        height: 20%;
+        margin-top: 10px;
     }
 }
