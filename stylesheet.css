@@ -41,9 +41,10 @@ body {
 .box-blur-2 {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
-   -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(3px);
+   -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     margin-top: 10px;
+    box-shadow: 1px 1px 5px 1px var(--light-color);
 }
  /*Call-Text-Section*/
  .call-text-email-buttons {
