@@ -1,6 +1,7 @@
 :root {
     --primary-color: #6f2fa3;
     --secondary-color: #1aa0e3;
+    --blue-bg-color: #011364;
     --light-color: #5e5f64;
     --dark-color: #2f3035;
     --white-color: #eee;
@@ -27,6 +28,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.blue-bg-color {
+    background-color: var(--blue-bg-color);
 }
 /*BLACKDROP-FILTER*/
 .box-blur {
