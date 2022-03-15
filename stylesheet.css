@@ -39,7 +39,7 @@ body {
     margin-top: 10px;
 }
 .box-blur-2 {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(47, 48, 53, 0.3);
     border-radius: 5px;
    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
@@ -80,7 +80,7 @@ body {
     background: none;
 }
 .github, .linkedin {
-    color: var(--dark-charc);
+    color: var(--dark-color);
 }
 .github:hover, .linkedin:hover {
     color: var(--primary-color);
