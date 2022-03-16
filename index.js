@@ -54,7 +54,7 @@ const addOccupation = (str) => {
     }, 150)
 }
 
-const overProjects = () => {
+const overSkillSection = () => {
     if(window.screen.width <= 476) {
         if(window.pageYOffset > 810 && window.pageYOffset < 1075) {
             $("list-1").classList.add("mk-border");
@@ -90,6 +90,5 @@ window.onload = () => {
     
 }
 window.onscroll = () => {
-    overProjects();
-    console.log(window.pageYOffset);
+    overSkillSection();
 }
