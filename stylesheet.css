@@ -152,6 +152,8 @@ body {
 }
 #soft:hover, #tech:hover, #tools:hover{
     background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.5em;
 }
 .main-color {
     color: var(--primary-color);
