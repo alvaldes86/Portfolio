@@ -60,21 +60,25 @@ body {
     z-index: 1;
 }
 /*Call-Text-Section*/
-.tel-container, .sms-container, .email-container {
+.github-container, .linkedin-container, .email-container, .tel-container, .sms-container {
     margin-bottom: 5px;
     margin-right: 5px;
     padding: 10px 10px;
     border-radius: 5px;
     border: none;
     font-size: 1em;
+    background-color: var(--primary-color);
 }
 /*Call-Text-Section*/
-.tel, .sms, .email {
+.tel, .sms, .email, .github, .linkedin {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--white-color);
+}
+.tel:hover, .sms:hover, .email:hover, .github:hover, .linkedin:hover {
+    color: var(--black-color);
 }
 /*Desktop Contact Buttons*/
-.links-container {
+/* .links-container {
     margin-bottom: 5px;
     margin-right: 5px;
     padding: 10px 10px;
@@ -88,7 +92,7 @@ body {
 }
 .github:hover, .linkedin:hover {
     color: var(--light-color);
-}
+} */
 .white-color {
     color: var(--white-color);
 }
@@ -108,7 +112,7 @@ body {
     border: none;
     border-radius: 5px;
     padding: 5px 15px;
-    box-shadow: 1px 1px 1px 1px var(--white-color);
+    box-shadow: 1px 1px 1px 1px var(--primary-color);
 }
 .my-btn:hover {
     background-color: var(--primary-color);
@@ -172,7 +176,10 @@ body {
     border-left: 1px solid var(--secondary-color);
 }
 @media only screen and (min-width: 900px) {
-    .call-text-email-buttons {
+    .tel, .sms {
+        display: none;
+    }
+    .tel-container, .sms-container {
         display: none;
     }
     .box-blur-2 {
