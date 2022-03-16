@@ -56,26 +56,23 @@ const addOccupation = (str) => {
 
 const overProjects = () => {
     if(window.screen.width <= 476) {
-        if(window.pageYOffset > 814 && window.pageYOffset < 1115) {
-            $("soft").classList.add("bg");
+        if(window.pageYOffset > 810 && window.pageYOffset < 1075) {
+            $("list-1").classList.add("mk-border");
         } else {
-            $("soft").classList.remove("bg");
+            $("list-1").classList.remove("mk-border");
         }
-        if(window.pageYOffset > 1116 && window.pageYOffset < 1452) {
-            $("tech").classList.add("bg");
+        if(window.pageYOffset > 1076 && window.pageYOffset < 1400) {
+            $("list-2").classList.add("mk-border");
         } else {
-            $("tech").classList.remove("bg");   
+            $("list-2").classList.remove("mk-border");
         }
-        if(window.pageYOffset > 1453 && window.pageYOffset < 1697) {
-            $("tools").classList.add("bg");
+        if(window.pageYOffset > 1401 && window.pageYOffset < 1630) {
+            $("list-3").classList.add("mk-border");
         } else {
-            $("tools").classList.remove("bg");   
+            $("list-3").classList.remove("mk-border");
         }
-    } else {
-        $("soft").classList.remove("bg");
-        $("tech").classList.remove("bg");
-        $("tools").classList.remove("bg");
     }
+          
 }
 
 
