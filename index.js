@@ -91,6 +91,60 @@ const overProjectSection = () => {
         }
     }
 }
+const overCodingChallenges = () => {
+    if(window.screen.width <= 476) {
+        if(window.pageYOffset > 2572 && window.pageYOffset < 2673) {
+            $("cod-1").classList.add("bg-sec");
+        } else {
+            $("cod-1").classList.remove("bg-sec");    
+        }
+        if(window.pageYOffset > 2674 && window.pageYOffset < 2775) {
+            $("cod-2").classList.add("bg-sec");
+        } else {
+            $("cod-2").classList.remove("bg-sec");    
+        }
+        if(window.pageYOffset > 2776 && window.pageYOffset < 2877) {
+            $("cod-3").classList.add("bg-sec");
+        } else {
+            $("cod-3").classList.remove("bg-sec");    
+        }
+        if(window.pageYOffset > 2878 && window.pageYOffset < 2979) {
+            $("cod-4").classList.add("bg-sec");
+        } else {
+            $("cod-4").classList.remove("bg-sec");    
+        }
+        if(window.pageYOffset > 2980 && window.pageYOffset < 3081) {
+            $("cod-5").classList.add("bg-sec");
+        } else {
+            $("cod-5").classList.remove("bg-sec");    
+        }
+        if(window.pageYOffset > 3082 && window.pageYOffset < 3183) {
+            $("cod-6").classList.add("bg-sec");
+        } else {
+            $("cod-6").classList.remove("bg-sec");    
+        }
+        if(window.pageYOffset > 3184 && window.pageYOffset < 3285) {
+            $("cod-7").classList.add("bg-sec");
+        } else {
+            $("cod-7").classList.remove("bg-sec");    
+        }
+        if(window.pageYOffset > 3286 && window.pageYOffset < 3387) {
+            $("cod-8").classList.add("bg-sec");
+        } else {
+            $("cod-8").classList.remove("bg-sec");    
+        }
+        if(window.pageYOffset > 3388 && window.pageYOffset < 3489) {
+            $("cod-9").classList.add("bg-sec");
+        } else {
+            $("cod-9").classList.remove("bg-sec");    
+        }
+        if(window.pageYOffset > 3490 && window.pageYOffset < 3591) {
+            $("cod-10").classList.add("bg-sec");
+        } else {
+            $("cod-10").classList.remove("bg-sec");    
+        }
+    }
+}
 
 
 window.onload = () => {
@@ -109,5 +163,6 @@ window.onload = () => {
 window.onscroll = () => {
     overSkillSection();
     overProjectSection();
+    overCodingChallenges();
     console.log(window.pageYOffset);
 }

@@ -123,6 +123,9 @@ body {
 .bg {
     background-color: var(--primary-color);
 }
+.bg-sec {
+    background-color: var(--secondary-color);
+}
 .round-img {
     border-radius: 200px;
 }
@@ -136,12 +139,12 @@ body {
     background-color: var(--primary-color);
 }
 /*Coding Challenges Animation*/
-#hover-animation-2 {
+#cod-1, #cod-2, #cod-3, #cod-4, #cod-5, #cod-6, #cod-7, #cod-8, #cod-9, #cod-10 {
     transition-property: background-color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
-#hover-animation-2:hover {
+#cod-1:hover, #cod-2:hover, #cod-3:hover, #cod-4:hover, #cod-5:hover, #cod-6:hover, #cod-7:hover, #cod-8:hover, #cod-9:hover, #cod-10:hover {
     background-color: var(--secondary-color);
 }
 /*Skills Animation*/
