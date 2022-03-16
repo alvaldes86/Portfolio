@@ -74,17 +74,17 @@ const overSkillSection = () => {
 }
 const overProjectSection = () => {
     if(window.screen.width <= 476) {
-        if(window.pageYOffset > 1845 && window.pageYOffset < 2109) {
+        if(window.pageYOffset > 1845 && window.pageYOffset < 2084) {
             $("hover-proj-1").classList.add("bg");
         } else {
             $("hover-proj-1").classList.remove("bg");    
         }
-        if(window.pageYOffset > 2110 && window.pageYOffset < 2270) {
+        if(window.pageYOffset > 2085 && window.pageYOffset < 2245) {
             $("hover-proj-2").classList.add("bg");
         } else {
             $("hover-proj-2").classList.remove("bg");    
         }
-        if(window.pageYOffset > 2270 && window.pageYOffset < 2441) {
+        if(window.pageYOffset > 2246 && window.pageYOffset < 2360) {
             $("hover-proj-3").classList.add("bg");
         } else {
             $("hover-proj-3").classList.remove("bg");    
