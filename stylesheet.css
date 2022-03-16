@@ -127,12 +127,12 @@ body {
     border-radius: 200px;
 }
 /*Project Animation*/
-#hover-animation {
+#hover-proj-1, #hover-proj-2, #hover-proj-3 {
     transition-property: background-color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
-#hover-animation:hover {
+#hover-proj-1:hover, #hover-proj-2:hover, #hover-proj-3:hover {
     background-color: var(--primary-color);
 }
 /*Coding Challenges Animation*/
@@ -144,7 +144,7 @@ body {
 #hover-animation-2:hover {
     background-color: var(--secondary-color);
 }
-/*Skills & Experience Animation*/
+/*Skills Animation*/
 #tech {
     transition-property: background-color;
     transition-duration: 0.3s;

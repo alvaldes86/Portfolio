@@ -53,7 +53,6 @@ const addOccupation = (str) => {
         }
     }, 150)
 }
-
 const overSkillSection = () => {
     if(window.screen.width <= 476) {
         if(window.pageYOffset > 810 && window.pageYOffset < 1075) {
@@ -71,8 +70,26 @@ const overSkillSection = () => {
         } else {
             $("list-3").classList.remove("mk-border");
         }
+    }       
+}
+const overProjectSection = () => {
+    if(window.screen.width <= 476) {
+        if(window.pageYOffset > 1845 && window.pageYOffset < 2109) {
+            $("hover-proj-1").classList.add("bg");
+        } else {
+            $("hover-proj-1").classList.remove("bg");    
+        }
+        if(window.pageYOffset > 2110 && window.pageYOffset < 2270) {
+            $("hover-proj-2").classList.add("bg");
+        } else {
+            $("hover-proj-2").classList.remove("bg");    
+        }
+        if(window.pageYOffset > 2270 && window.pageYOffset < 2441) {
+            $("hover-proj-3").classList.add("bg");
+        } else {
+            $("hover-proj-3").classList.remove("bg");    
+        }
     }
-          
 }
 
 
@@ -91,4 +108,6 @@ window.onload = () => {
 }
 window.onscroll = () => {
     overSkillSection();
+    overProjectSection();
+    console.log(window.pageYOffset);
 }
