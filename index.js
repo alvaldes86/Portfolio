@@ -20,7 +20,7 @@ const addName = () => {
 }
 const addOccupation = (str) => {
     let arrName = [];
-    let occupation = ["S", "o", "f", "t", "w", "a", "r", "e", " ", "D", "e", "v", "e", "l", "o", "p", "e", "r"];
+    let occupation = [".", "N", "E", "T", "-", "D", "e", "v", "e", "l", "o", "p", "e", "r"];
 
     //gets the devName
     for(let i = 0; i < str.length; i++) {
@@ -146,9 +146,11 @@ const overCodingChallenges = () => {
     }
 }
 
+let year = new Date();
+year = year.getFullYear();
 
 window.onload = () => {
-    
+    $("year").innerHTML = year;
     addName();
     addOccupation($("devName").innerHTML);
     

@@ -104,7 +104,7 @@ body {
     margin-top: 15px;
 }
 .bShadow {
-    box-shadow: 3px 0px 1px 0px var(--primary-color);
+    box-shadow: 1px 1px 1px 1px var(--secondary-color);
 }
 .my-btn {
     background-color: none;
@@ -140,7 +140,7 @@ body {
     transition-timing-function: ease-in-out;
 }
 #hover-proj-1:hover, #hover-proj-2:hover, #hover-proj-3:hover {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 /*Coding Challenges Animation*/
 #cod-1, #cod-2, #cod-3, #cod-4, #cod-5, #cod-6, #cod-7, #cod-8, #cod-9, #cod-10 {
