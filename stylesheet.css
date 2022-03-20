@@ -28,7 +28,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .blue-bg-color {
@@ -141,7 +140,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 #hover-proj-1, #hover-proj-2, #hover-proj-3 {
     transition-property: background-color;
