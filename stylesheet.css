@@ -28,16 +28,18 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
+
 .blue-bg-color {
     background-color: var(--blue-bg-color);
 }
 /*BLACKDROP-FILTER*/
 .box-blur {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(47, 48, 53, 0.3);
     border-radius: 5px;
    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(15px) saturate(150%);
     width: 50%;
     height: 20%;
     margin-top: 10px;
@@ -46,7 +48,7 @@ body {
     background-color: rgba(47, 48, 53, 0.3);
     border-radius: 5px;
    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(16px) saturate(150%);
     margin-top: 10px;
     width: 100%;
 }
@@ -104,7 +106,7 @@ body {
     margin-top: 15px;
 }
 .bShadow {
-    box-shadow: 1px 1px 1px 1px var(--secondary-color);
+    box-shadow: 1px 1px 1px 1px var(--primary-color);
 }
 .my-btn {
     background-color: none;
@@ -134,6 +136,13 @@ body {
     border-radius: 200px;
 }
 /*Project Animation*/
+.projects-bg {
+    background-image: url(./img/projects-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 #hover-proj-1, #hover-proj-2, #hover-proj-3 {
     transition-property: background-color;
     transition-duration: 0.5s;
